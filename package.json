@@ -1,7 +1,7 @@
 {
-  "name": "JC_NUXT",
+  "name": "jcnuxt",
   "version": "1.0.0",
-  "description": "JC Nuxt App",
+  "description": "A Justyn Clark Modern Frontend VueJS Nuxt App",
   "author": "ijustynclark@gmail.com",
   "private": true,
   "scripts": {
@@ -14,17 +14,20 @@
     "heroku-postbuild": "npm run build"
   },
   "dependencies": {
+    "@nuxtjs/axios": "^5.0.0",
     "cross-env": "^5.2.0",
-    "nuxt": "^2.0.0",
     "express": "^4.16.3",
-    "@nuxtjs/axios": "^5.0.0"
+    "nuxt": "^2.0.0",
+    "nuxt-sass-resources-loader": "^2.0.5"
   },
   "devDependencies": {
-    "nodemon": "^1.11.0",
     "babel-eslint": "^8.2.1",
     "eslint": "^5.0.1",
     "eslint-loader": "^2.0.0",
-    "eslint-plugin-vue": "^4.0.0"
+    "eslint-plugin-vue": "^4.0.0",
+    "node-sass": "^4.10.0",
+    "nodemon": "^1.11.0",
+    "sass-loader": "^7.1.0"
   },
   "engines": {
     "node": "11.1.0"
