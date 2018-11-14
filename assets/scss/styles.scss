@@ -1,0 +1,40 @@
+
+//----------------------------------*\
+// SCSS MIXINS
+//----------------------------------*/
+
+// @import 'mixins/mixins';
+
+//----------------------------------*\
+/* Base files. */
+//----------------------------------*\
+
+@import "base/variables";
+// @import "base/normalize";
+@import "base/base-styles";
+// @import "base/functions";
+// @import "base/grid";
+// @import "base/utils";
+// @import "modules/media-queries";
+// @import "base/typography";
+
+//----------------------------------*\
+/* Modules */
+//----------------------------------*\
+@import "modules/buttons";
+// @import "modules/code";
+// @import "modules/overlay";
+// @import "modules/spacing";
+// @import "modules/tables";
+
+//----------------------------------*\
+/* PARTIALS */
+//----------------------------------*/
+
+// @import 'partials/header';
+@import 'partials/nav';
+// @import 'partials/main';
+// @import 'partials/footer';
+
+
+
